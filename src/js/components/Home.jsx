@@ -13,17 +13,18 @@ const Home = () => {
 		<div>
 			<div>
 				<div className="text-center">
-				<NavBar />
+					<NavBar />
 				</div>
-				<JumboTron />
-				<Cards />
+				<div className="contain-lg">
+					<JumboTron />
+					<Cards />
+				</div>
 			</div>
-
-			<div>
-				<footer>
+			<br />
+			<br />
+				<footer className=" fixed-bottom">
 					<Bottom />
 				</footer>
-			</div>
 
 		</div>
 
